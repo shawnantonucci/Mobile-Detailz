@@ -272,7 +272,11 @@ footer .location-footer p {
 header {
   max-width: 100%;
   background-color: white;
-  height: 200px;
+  height: 150px;
+  background-image: url(/img/race-car-309123_1280.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 25% 55%;
 }
 header .header-contact {
   display: flex;
