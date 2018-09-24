@@ -289,6 +289,7 @@ header .header-contact h6:hover {
   color: red;
 }
 nav {
+  z-index: 100;
   max-width: 100%;
   display: flex;
   position: sticky;
