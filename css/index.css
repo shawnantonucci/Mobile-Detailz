@@ -196,6 +196,79 @@ p {
 .apt-banner:hover {
   background-color: rgba(51, 51, 51, 0.795);
 }
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  padding-top: 50px;
+  margin: auto;
+}
+.slideshow-container h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-decoration-line: underline;
+  padding-bottom: 25px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+footer {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contact-footer {
+  margin: 100px 0 0 2%;
+  display: flex;
+  flex-direction: column;
+}
+footer .contact-footer h4 {
+  font-size: 2rem;
+  color: white;
+}
+footer .contact-footer p {
+  color: white;
+}
+footer .location-footer {
+  margin: 100px 50% 0 0;
+  display: flex;
+  flex-direction: column;
+}
+footer .location-footer h4 {
+  font-size: 2rem;
+  color: white;
+}
+footer .location-footer p {
+  color: white;
+}
 header {
   max-width: 100%;
   background-color: white;
