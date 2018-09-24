@@ -169,8 +169,8 @@ p {
   font-weight: bold;
 }
 .banner h2 {
-  font-size: 6rem;
-  font-weight: bold;
+  font-size: 4rem;
+  font-weight: 100;
   color: white;
 }
 .apt-banner {
