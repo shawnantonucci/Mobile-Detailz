@@ -192,10 +192,15 @@ p {
   font-weight: bold;
   text-decoration-line: underline;
 }
+.apt-banner:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+}
 header {
   max-width: 100%;
   background-color: grey;
-  height: 200px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/standing-prices.jpeg);
+  background-position: 50% -3%;
 }
 header .header-contact {
   display: flex;
@@ -206,6 +211,10 @@ header .header-contact {
 }
 header .header-contact h6 {
   color: white;
+  font-weight: bold;
+}
+header .header-contact h6:hover {
+  color: red;
 }
 nav {
   max-width: 100%;
